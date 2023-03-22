@@ -40,7 +40,7 @@ parameters.gammad = gammad;
 
 
 %% Create hybrid system
-sys = ClkSk2(parameters);
+sys = ClkSk(parameters);
 
 tspan = [0, 10];
 jspan = [0, 2*tspan(end)/s];
