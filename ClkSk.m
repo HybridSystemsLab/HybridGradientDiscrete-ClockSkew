@@ -11,7 +11,7 @@ classdef ClkSk2 < HybridSystem
     end
 
     methods 
-        function this = ClkSk2(parameters)
+        function this = ClkSk(parameters)
             state_dim = 7; % (z(tau_c,q),tauS,tau,thetahat)
             this = this@HybridSystem(state_dim);
             
